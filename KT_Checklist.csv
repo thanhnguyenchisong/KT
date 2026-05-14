@@ -1,0 +1,188 @@
+Section,Sub-Section,Item #,Checklist Item,Status,Action Required
+0.1 Source Code Transfer,,1,All source code repositories listed by name and URL,Not Completed,List all repos with names and URLs
+0.1 Source Code Transfer,,2,Frontend repository received and cloned,Not Completed,Receive and clone frontend repo
+0.1 Source Code Transfer,,3,Backend repository received and cloned,Not Completed,Receive and clone backend repo
+0.1 Source Code Transfer,,4,Shared library/common module repositories received,Not Completed,Receive shared library/common module repos
+0.1 Source Code Transfer,,5,Infrastructure-as-code repository received (if any),Not Completed,Receive IaC repo if applicable
+0.1 Source Code Transfer,,6,Deployment scripts repository received (if any),Not Completed,Receive deployment scripts repo if applicable
+0.1 Source Code Transfer,,7,Documentation repository or wiki access received,Not Completed,Get access to documentation repo or wiki
+0.1 Source Code Transfer,,8,Correct production branch identified,Not Completed,Identify the correct production branch
+0.1 Source Code Transfer,,9,Latest production tag/commit SHA identified,Not Completed,Identify latest production tag/commit SHA
+0.1 Source Code Transfer,,10,Production artifact verified to match a known repo commit (deployed image tag/JAR matches source),Not Completed,Verify deployed artifact matches a known repo commit
+0.1 Source Code Transfer,,11,Current development branch identified,Not Completed,Identify the current development branch
+0.1 Source Code Transfer,,12,"In-flight work identified: open PRs, unreleased hotfixes, half-merged feature branches",Not Completed,"Identify all open PRs, unreleased hotfixes, and half-merged branches"
+0.1 Source Code Transfer,,13,Repository access tested by cloning locally,Not Completed,Test repo access by cloning locally
+0.1 Source Code Transfer,,14,Permission to create branch confirmed and tested,Not Completed,Confirm and test branch creation permission
+0.1 Source Code Transfer,,15,Permission to push branch confirmed and tested,Not Completed,Confirm and test branch push permission
+0.1 Source Code Transfer,,16,Permission to create PR/MR confirmed and tested,Not Completed,Confirm and test PR/MR creation permission
+0.1 Source Code Transfer,,17,"Repo admin/maintainer ownership transferred, if required",Not Completed,Transfer repo admin/maintainer ownership if required
+0.1 Source Code Transfer,,18,"Git LFS configured, if the repo uses large binary assets",Not Completed,Configure Git LFS if applicable
+0.1 Source Code Transfer,,19,"Private npm registry access received and tested, if applicable",Not Completed,Get and test private npm registry access if applicable
+0.1 Source Code Transfer,,20,"Private Maven/Gradle repository (Nexus, Artifactory) access received and tested, if applicable",Not Completed,Get and test private Maven/Gradle repo access if applicable
+0.2 Application Access,,1,Local environment setup instructions received,Not Completed,Receive local environment setup instructions
+0.2 Application Access,,2,Dev environment URL received and login tested,Not Completed,Get dev environment URL and test login
+0.2 Application Access,,3,QA/UAT/staging environment URL received and login tested,Not Completed,Get QA/UAT/staging URL and test login
+0.2 Application Access,,4,"Pre-production environment URL received and login tested, if any",Not Completed,Get pre-prod URL and test login if applicable
+0.2 Application Access,,5,Production environment URL received,Not Completed,Receive production environment URL
+0.2 Application Access,,6,Test user accounts received with credentials,Not Completed,Receive test user accounts with credentials
+0.2 Application Access,,7,"Admin user account received, if applicable",Not Completed,Receive admin user account if applicable
+0.2 Application Access,,8,Role/permission matrix received (which role can do what),Not Completed,Receive role/permission matrix
+0.2 Application Access,,9,VPN access received and connection tested,Not Completed,Get VPN access and test connection
+0.2 Application Access,,10,SSO access received and login tested,Not Completed,Get SSO access and test login
+0.2 Application Access,,11,"Firewall/IP allowlist access confirmed, if required",Not Completed,Confirm firewall/IP allowlist access if required
+0.2 Application Access,,12,"Cloud IAM roles/permissions granted (specific policies, not just console access)",Not Completed,Get specific Cloud IAM roles/permissions
+0.2 Application Access,Third-party service accounts,13,"Email service (SendGrid, SES, etc.)",Not Completed,Receive email service account access
+0.2 Application Access,Third-party service accounts,14,SMS/notification service,Not Completed,Receive SMS/notification service account access
+0.2 Application Access,Third-party service accounts,15,"Payment gateway, if applicable",Not Completed,Receive payment gateway access if applicable
+0.2 Application Access,Third-party service accounts,16,External API accounts with credentials,Not Completed,Receive external API accounts with credentials
+0.2 Application Access,Third-party service accounts,17,Any other SaaS/vendor portals,Not Completed,Receive any other SaaS/vendor portal access
+0.3 Build And Run Verification,,1,"Required Java version confirmed (exact version, e.g., JDK 17.0.x)",Not Completed,Confirm exact Java version required
+0.3 Build And Run Verification,,2,"Required Node.js version confirmed (exact version, e.g., 18.x)",Not Completed,Confirm exact Node.js version required
+0.3 Build And Run Verification,,3,"Required Angular version confirmed (exact version, e.g., 16.x)",Not Completed,Confirm exact Angular version required
+0.3 Build And Run Verification,,4,Required Maven/Gradle version confirmed,Not Completed,Confirm exact Maven/Gradle version required
+0.3 Build And Run Verification,,5,Required npm/yarn/pnpm version confirmed,Not Completed,Confirm exact npm/yarn/pnpm version required
+0.3 Build And Run Verification,,6,Docker and Docker Compose installed and working,Not Completed,Install and verify Docker and Docker Compose
+0.3 Build And Run Verification,,7,docker-compose.yml or equivalent received and reviewed,Not Completed,Receive and review docker-compose.yml
+0.3 Build And Run Verification,Local infrastructure dependencies,8,Database container or local instance,Not Completed,Set up database container or local instance
+0.3 Build And Run Verification,Local infrastructure dependencies,9,"Redis/cache container, if required",Not Completed,Set up Redis/cache container if required
+0.3 Build And Run Verification,Local infrastructure dependencies,10,"Kafka/RabbitMQ/message broker container, if required",Not Completed,Set up message broker container if required
+0.3 Build And Run Verification,Local infrastructure dependencies,11,"Elasticsearch/search engine container, if required",Not Completed,Set up search engine container if required
+0.3 Build And Run Verification,Local infrastructure dependencies,12,Any other local service dependencies,Not Completed,Set up any other local service dependencies
+0.3 Build And Run Verification,,13,Backend builds successfully on local machine,Not Completed,Build backend locally and verify success
+0.3 Build And Run Verification,,14,Frontend builds successfully on local machine,Not Completed,Build frontend locally and verify success
+0.3 Build And Run Verification,,15,Backend runs locally,Not Completed,Run backend locally and verify
+0.3 Build And Run Verification,,16,Frontend runs locally,Not Completed,Run frontend locally and verify
+0.3 Build And Run Verification,,17,Frontend can call backend locally (proxy/CORS working),Not Completed,Verify frontend-backend local communication
+0.3 Build And Run Verification,,18,Unit tests can run locally and pass,Not Completed,Run unit tests locally and verify they pass
+0.3 Build And Run Verification,,19,"Integration tests can run locally, if available",Not Completed,Run integration tests locally if available
+0.3 Build And Run Verification,,20,"E2E tests can run locally, if available",Not Completed,Run E2E tests locally if available
+0.3 Build And Run Verification,,21,Required environment variables documented with example values,Not Completed,Document all required env vars with examples
+0.3 Build And Run Verification,,22,"Required config files/templates received (.env.example, application-local.yml, etc.)",Not Completed,Receive config files/templates
+0.3 Build And Run Verification,,23,"Required local certificates received, if any",Not Completed,Receive local certificates if required
+0.3 Build And Run Verification,,24,"""Clean machine to running app"" guide written and verified",Not Completed,Write and verify clean-machine setup guide
+0.4 Database And Data,,1,"Database engine and exact version confirmed (e.g., PostgreSQL 15.3)",Not Completed,Confirm database engine and exact version
+0.4 Database And Data,,2,Database schema received,Not Completed,Receive database schema
+0.4 Database And Data,,3,"Migration tool identified (Flyway, Liquibase) and migration files received",Not Completed,Identify migration tool and receive migration files
+0.4 Database And Data,,4,How to create and apply a new migration documented,Not Completed,Document migration creation and application process
+0.4 Database And Data,,5,Seed/reference data received,Not Completed,Receive seed/reference data
+0.4 Database And Data,,6,ERD or schema documentation received,Not Completed,Receive ERD or schema documentation
+0.4 Database And Data,,7,"Dev database access tested: can connect via CLI/IDE, run a SELECT, see expected tables",Not Completed,Test dev database access end-to-end
+0.4 Database And Data,,8,Staging/UAT database access tested: same verification as dev,Not Completed,Test staging/UAT database access end-to-end
+0.4 Database And Data,,9,Production database access policy clarified (read-only? bastion host? approval needed?),Not Completed,Clarify production database access policy
+0.4 Database And Data,,10,"Production data volume documented (approximate size in GB, row counts for large tables)",Not Completed,Document production data volume
+0.4 Database And Data,,11,"Stored procedures, triggers, views, and functions documented, if any",Not Completed,"Document stored procedures, triggers, views, functions"
+0.4 Database And Data,,12,"Database connection pool configuration documented (HikariCP settings, max connections)",Not Completed,Document DB connection pool configuration
+0.4 Database And Data,,13,High-write tables vs. read-heavy tables identified,Not Completed,Identify high-write vs read-heavy tables
+0.4 Database And Data,,14,Indexes documented with their purpose,Not Completed,Document indexes with their purpose
+0.4 Database And Data,,15,Soft delete vs. hard delete approach documented,Not Completed,Document soft delete vs hard delete approach
+0.4 Database And Data,,16,"Known data integrity issues documented (orphaned records, constraint violations)",Not Completed,Document known data integrity issues
+0.4 Database And Data,,17,Database user accounts listed; old team credentials scheduled for rotation,Not Completed,List DB user accounts and schedule credential rotation
+0.4 Database And Data,,18,Backup process documented with schedule and retention,Not Completed,Document backup process with schedule and retention
+0.4 Database And Data,,19,"Restore process documented and tested (or at minimum, walked through)",Not Completed,Document and test/walk-through restore process
+0.4 Database And Data,,20,Data masking/anonymization process for non-prod environments documented,Not Completed,Document data masking/anonymization process
+0.4 Database And Data,,21,Sensitive/PII data locations documented,Not Completed,Document sensitive/PII data locations
+0.5 Deployment And Operations,,1,CI/CD system access received and login tested,Not Completed,Get CI/CD system access and test login
+0.5 Deployment And Operations,,2,"Pipeline configuration file location identified (Jenkinsfile, .github/workflows/, etc.)",Not Completed,Identify pipeline configuration file location
+0.5 Deployment And Operations,,3,"Pipeline stages documented (build, test, lint, scan, package, deploy)",Not Completed,Document pipeline stages
+0.5 Deployment And Operations,,4,Build artifact registry access received and tested,Not Completed,Get and test build artifact registry access
+0.5 Deployment And Operations,,5,"Docker/container registry access received and tested, if applicable",Not Completed,Get and test container registry access if applicable
+0.5 Deployment And Operations,,6,Cloud console access received with specific IAM permissions verified,Not Completed,Get cloud console access and verify IAM permissions
+0.5 Deployment And Operations,,7,"Kubernetes/hosting platform access received and tested (kubectl get pods works), if applicable",Not Completed,Get and test K8s/hosting platform access if applicable
+0.5 Deployment And Operations,,8,Deployment process documented as step-by-step runbook for each environment,Not Completed,Document deployment runbook per environment
+0.5 Deployment And Operations,,9,"Deployment order/dependencies documented (e.g., DB migration before backend, backend before frontend)",Not Completed,Document deployment order and dependencies
+0.5 Deployment And Operations,,10,"Environment-specific configuration differences documented (what differs between dev/staging/prod)",Not Completed,Document env-specific config differences
+0.5 Deployment And Operations,,11,"Deployment strategy documented (rolling update, blue/green, canary)",Not Completed,Document deployment strategy
+0.5 Deployment And Operations,,12,Developer has deployed to dev environment independently,Not Completed,Deploy to dev environment independently
+0.5 Deployment And Operations,,13,Developer has deployed to staging/UAT environment independently,Not Completed,Deploy to staging/UAT independently
+0.5 Deployment And Operations,,14,"Production deployment approval process documented (who approves, what gates exist)",Not Completed,Document production deployment approval process
+0.5 Deployment And Operations,,15,Rollback procedure documented AND rehearsed on staging,Not Completed,Document rollback procedure and rehearse on staging
+0.5 Deployment And Operations,,16,Health check endpoints documented with expected responses,Not Completed,Document health check endpoints
+0.5 Deployment And Operations,,17,Smoke test checklist received (automated or manual),Not Completed,Receive smoke test checklist
+0.5 Deployment And Operations,,18,Scheduled maintenance windows documented,Not Completed,Document scheduled maintenance windows
+0.5 Deployment And Operations,,19,"Upcoming planned events documented (customer go-lives, migrations, etc.)",Not Completed,Document upcoming planned events
+0.6 Monitoring And Support,,1,Application logs access received and verified (can search and find a specific request),Not Completed,Get and verify application logs access
+0.6 Monitoring And Support,,2,Production logs access policy clarified,Not Completed,Clarify production logs access policy
+0.6 Monitoring And Support,,3,Example log queries provided for common troubleshooting scenarios,Not Completed,Provide example log queries for common scenarios
+0.6 Monitoring And Support,,4,"Structured logging key fields documented (correlation ID, user ID, request ID)",Not Completed,Document structured logging key fields
+0.6 Monitoring And Support,,5,Monitoring dashboard access received and key dashboards identified,Not Completed,Get monitoring dashboard access and identify key dashboards
+0.6 Monitoring And Support,,6,"SLA/SLO targets documented (response time P95, error rate threshold, uptime %)",Not Completed,Document SLA/SLO targets
+0.6 Monitoring And Support,,7,"Key metrics explained: what ""healthy"" looks like numerically",Not Completed,Explain key metrics and healthy baselines
+0.6 Monitoring And Support,,8,Alerting tool access received and alert rules reviewed,Not Completed,Get alerting tool access and review alert rules
+0.6 Monitoring And Support,,9,"Error tracking tool access received, if any (Sentry, Bugsnag, etc.)",Not Completed,Get error tracking tool access if applicable
+0.6 Monitoring And Support,,10,"Top 10 common production issues documented with symptoms, root cause, and resolution steps",Not Completed,Document top 10 common production issues
+0.6 Monitoring And Support,,11,"Incident escalation path received with names, roles, and contact methods",Not Completed,Receive incident escalation path
+0.6 Monitoring And Support,,12,"On-call process documented (rotation, response SLA per severity)",Not Completed,Document on-call process
+0.6 Monitoring And Support,,13,"Support contact list received (business, infra, security, QA, vendor contacts)",Not Completed,Receive support contact list
+0.6 Monitoring And Support,,14,Support ticket history reviewed (what do users actually complain about),Not Completed,Review support ticket history
+0.6 Monitoring And Support,,15,Last 6-12 months of incident history received with root causes and fixes,Not Completed,Receive incident history with root causes
+0.7 Security And Secrets,,1,"Secret manager access received and verified (can list, read, and if authorized, rotate)",Not Completed,Get and verify secret manager access
+0.7 Security And Secrets,,2,"Location of all secrets documented (which secrets, which manager, which environment)",Not Completed,Document all secret locations
+0.7 Security And Secrets,,3,Secret rotation process documented with schedule,Not Completed,Document secret rotation process and schedule
+0.7 Security And Secrets,,4,API keys ownership clarified and transferred to incoming team accounts,Not Completed,Clarify and transfer API key ownership
+0.7 Security And Secrets,,5,OAuth/SSO client configuration documented,Not Completed,Document OAuth/SSO client configuration
+0.7 Security And Secrets,,6,SSL/TLS certificate ownership clarified,Not Completed,Clarify SSL/TLS certificate ownership
+0.7 Security And Secrets,,7,SSL/TLS certificate expiry dates documented with renewal owners assigned,Not Completed,Document SSL/TLS cert expiry and assign renewal owners
+0.7 Security And Secrets,,8,Domain/DNS ownership clarified,Not Completed,Clarify domain/DNS ownership
+0.7 Security And Secrets,,9,CORS configuration documented,Not Completed,Document CORS configuration
+0.7 Security And Secrets,,10,Rate limiting configuration documented,Not Completed,Document rate limiting configuration
+0.7 Security And Secrets,,11,"WAF rules documented, if applicable",Not Completed,Document WAF rules if applicable
+0.7 Security And Secrets,,12,"Security scan process documented (SAST, DAST, dependency scanning)",Not Completed,Document security scan process
+0.7 Security And Secrets,,13,"Penetration test results reviewed, if available",Not Completed,Review penetration test results if available
+0.7 Security And Secrets,,14,Known vulnerabilities reviewed with remediation status,Not Completed,Review known vulnerabilities with remediation status
+0.7 Security And Secrets,,15,No secrets are hardcoded in source code (verified by scan),Not Completed,Verify no hardcoded secrets via scan
+0.7 Security And Secrets,,16,"Compliance requirements documented (GDPR, HIPAA, PCI-DSS, etc.)",Not Completed,Document compliance requirements
+0.7 Security And Secrets,,17,Outgoing team access revocation plan with timeline,Not Completed,Create outgoing team access revocation plan
+0.8 Business And Product Knowledge,,1,Business purpose of the application explained and incoming developer can explain it back,Not Completed,Explain business purpose and verify understanding
+0.8 Business And Product Knowledge,,2,Main users and roles understood (incoming developer can list them),Not Completed,Understand and list main users and roles
+0.8 Business And Product Knowledge,,3,SLA commitments to customers/stakeholders documented,Not Completed,Document SLA commitments
+0.8 Business And Product Knowledge,,4,Top 5 user journeys walked through end-to-end (UI to API to DB and back),Not Completed,Walk through top 5 user journeys end-to-end
+0.8 Business And Product Knowledge,,5,Top 3 complex business flows walked through with code,Not Completed,Walk through top 3 complex business flows with code
+0.8 Business And Product Knowledge,,6,Current backlog reviewed,Not Completed,Review current backlog
+0.8 Business And Product Knowledge,,7,In-progress work reviewed and status documented,Not Completed,Review and document in-progress work status
+0.8 Business And Product Knowledge,,8,Known bugs reviewed with workarounds,Not Completed,Review known bugs with workarounds
+0.8 Business And Product Knowledge,,9,Technical debt inventory reviewed with priority ranking,Not Completed,Review technical debt inventory with priorities
+0.8 Business And Product Knowledge,,10,Upcoming roadmap reviewed for next 1-2 quarters,Not Completed,Review upcoming roadmap for next 1-2 quarters
+0.8 Business And Product Knowledge,,11,Business owner/contact identified with communication channel,Not Completed,Identify business owner/contact and communication channel
+0.8 Business And Product Knowledge,,12,"Peak usage periods documented (time of day, end of month, seasonal)",Not Completed,Document peak usage periods
+0.9 Ownership Transfer,,1,Code repository ownership transferred (admin rights),Not Completed,Transfer code repository admin rights
+0.9 Ownership Transfer,,2,CI/CD pipeline ownership transferred,Not Completed,Transfer CI/CD pipeline ownership
+0.9 Ownership Transfer,,3,Deployment ownership transferred,Not Completed,Transfer deployment ownership
+0.9 Ownership Transfer,,4,Monitoring and alerting ownership transferred,Not Completed,Transfer monitoring and alerting ownership
+0.9 Ownership Transfer,,5,Incident response ownership transferred,Not Completed,Transfer incident response ownership
+0.9 Ownership Transfer,,6,"Vendor/service account ownership transferred, if applicable",Not Completed,Transfer vendor/service account ownership if applicable
+0.9 Ownership Transfer,,7,"Domain/DNS ownership transferred, if applicable",Not Completed,Transfer domain/DNS ownership if applicable
+0.9 Ownership Transfer,,8,Cloud/resource billing owner identified and documented,Not Completed,Identify and document cloud/resource billing owner
+0.9 Ownership Transfer,,9,Monthly infrastructure cost documented and budget alerts configured,Not Completed,Document monthly infra cost and configure budget alerts
+0.9 Ownership Transfer,,10,Auto-scaling configuration and resource limits documented,Not Completed,Document auto-scaling config and resource limits
+0.9 Ownership Transfer,,11,License/subscription renewal dates and owners documented,Not Completed,Document license/subscription renewal dates and owners
+0.9 Ownership Transfer,,12,Third-party service billing transferred to incoming team accounts,Not Completed,Transfer third-party service billing to incoming team
+0.9 Ownership Transfer,,13,Transition/shadow period agreed (2-4 weeks of parallel operation recommended),Not Completed,Agree on transition/shadow period
+0.9 Ownership Transfer,,14,"Post-handover support agreement documented: duration, response SLA, escalation channel",Not Completed,"Document post-handover support: duration, SLA, escalation"
+0.9 Ownership Transfer,,15,Knowledge escrow plan: what happens if outgoing team becomes unreachable,Not Completed,Create knowledge escrow plan
+0.9 Ownership Transfer,,16,Final KT sign-off date agreed,Not Completed,Agree on final KT sign-off date
+0.10 Final Acceptance Criteria,Mandatory,1,Production artifact verified to match a known repo commit,Not Completed,Verify production artifact matches repo commit
+0.10 Final Acceptance Criteria,Mandatory,2,Developer set up the full project on a clean machine without assistance,Not Completed,Set up full project on clean machine independently
+0.10 Final Acceptance Criteria,Mandatory,3,"Developer ran all test suites (unit, integration, E2E) and can interpret results",Not Completed,Run all test suites and interpret results
+0.10 Final Acceptance Criteria,Mandatory,4,Developer made a code change and deployed it to dev/staging independently,Not Completed,Make code change and deploy to dev/staging independently
+0.10 Final Acceptance Criteria,Mandatory,5,Developer performed a rollback on staging successfully,Not Completed,Perform rollback on staging successfully
+0.10 Final Acceptance Criteria,Mandatory,6,Developer investigated a real past production issue from logs to root cause without help,Not Completed,Investigate past production issue from logs independently
+0.10 Final Acceptance Criteria,Mandatory,7,Developer can draw the system architecture from memory and explain data flow,Not Completed,Draw system architecture and explain data flow from memory
+0.10 Final Acceptance Criteria,Mandatory,8,"Developer can list all external integrations, their owners, and fallback behavior",Not Completed,List all external integrations with owners and fallbacks
+0.10 Final Acceptance Criteria,Mandatory,9,All secrets are accessible to incoming team and not hardcoded,Not Completed,Verify all secrets accessible and not hardcoded
+0.10 Final Acceptance Criteria,Mandatory,10,Outgoing team access revocation schedule is documented and agreed,Not Completed,Document and agree on access revocation schedule
+0.10 Final Acceptance Criteria,Mandatory,11,"Post-handover support window is documented: duration, SLA, escalation channel",Not Completed,"Document post-handover support: duration, SLA, channel"
+0.10 Final Acceptance Criteria,Mandatory,12,Third-party service accounts transferred or billing ownership clarified,Not Completed,Transfer third-party accounts or clarify billing
+0.10 Final Acceptance Criteria,Mandatory,13,Certificate and license expiry calendar created with renewal owners assigned,Not Completed,Create cert/license expiry calendar with renewal owners
+0.10 Final Acceptance Criteria,Mandatory,14,Both teams sign the handover acceptance document with date,Not Completed,Sign handover acceptance document with date
+0.10 Final Acceptance Criteria,Recommended,15,Developer handled a real production alert or incident (shadowed or solo),Not Completed,Handle a real production alert or incident
+0.10 Final Acceptance Criteria,Recommended,16,Developer performed a production deployment following the full release process,Not Completed,Perform production deployment via full release process
+0.10 Final Acceptance Criteria,Recommended,17,Developer onboarded another team member using the documentation created during KT,Not Completed,Onboard another team member using KT documentation
+0.10 Final Acceptance Criteria,Recommended,18,Developer wrote or updated at least one runbook based on real operational experience,Not Completed,Write/update a runbook from real operational experience
+Red Flags,,1,Production code doesn't match any repo commit,N/A,Block sign-off until verified — you don't own what's running
+Red Flags,,2,Rollback procedure exists only on paper,N/A,Rehearse on staging before accepting — first real rollback will fail
+Red Flags,,3,Secrets are hardcoded or in shared docs,N/A,Escalate to security team immediately — security breach risk
+Red Flags,,4,Outgoing team has no access revocation plan,N/A,Block sign-off until plan exists — unknown actors with production access
+Red Flags,,5,Third-party billing on outgoing team's credit card,N/A,Transfer billing before accepting — services will stop when card expires
+Red Flags,,6,No monitoring or alerting,N/A,Set up basic monitoring before accepting — silent production failures
+Red Flags,,7,"""Only one person knows how X works"" and that person is leaving",N/A,Make learning X the top priority — critical knowledge loss risk
+Red Flags,,8,Certificate expires within 60 days with no renewal owner,N/A,Assign renewal owner before accepting — production outage risk
